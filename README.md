@@ -35,7 +35,7 @@ python password_strength_checker.py -p YourPasswordHere
 If you do not provide a password as a command-line argument, the script will prompt you to enter a password interactively:
 
 ```sh
-python password_strength_checker.py
+python password_checker.py
 ```
 
 ## Example Output
@@ -43,14 +43,14 @@ python password_strength_checker.py
 ### Strong Password
 
 ```sh
-$ python password_strength_checker.py -p StrongP@ssw0rd!
+$ python password_checker.py -p StrongP@ssw0rd!
 Password Strength: Strong
 ```
 
 ### Weak Password with Feedback
 
 ```sh
-$ python password_strength_checker.py -p weak
+$ python password_checker.py -p weak
 Password Strength: Weak
 Feedback:
  - Password should be at least 8 characters long.
